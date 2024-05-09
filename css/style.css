@@ -15,10 +15,6 @@ body {
 header {
     height: 90vh;
     width: 100%;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center; */
 }
 
 /* header top bar */
@@ -40,12 +36,117 @@ section.jumbo {
     background-color: aquamarine;
 }
 
-div.jumbo {
-    height: 95%;
-    width: 70%;
-    background-color: blueviolet;
-}
+    div.jumbo {
+        height: 95%;
+        width: 70%;
+        background-color: blueviolet;
+    }
 
 /* main */
 
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: lemonchiffon;
+}
+
+/* plan section */
+
+section.plan {
+    width: 70%;
+    height: 150vh;
+    background-color: red;
+    margin-top: 50px;
+}
+
+/* partner section */
+
+section.partner {
+    width: 70%;
+    height: 70vh;
+    background-color: blue;
+}
+
+/* business */
+
+section.business {
+    width: 70%;
+    height: 110vh;
+    background-color: cornflowerblue;
+}
+
+/* partnerships */
+
+section.partnerships-promo {
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    /* partnerships text */
+
+    .partnershipsText {
+        width: 70%;
+        height: 30%;
+        background-color: green;
+    }
+
+    /*  partnership logo image carousel  */
+
+    .carousel {
+        width: 100%;
+        height: 45%;
+        background-color: darkblue;
+    }
+
+    /* free trial */
+
+    .freeTrial {
+        width: 100%;
+        height: 25%;
+        background-color: lightblue;
+    }
+
+/* faq */
+
+section.faq {
+    width: 70%;
+    height: 70vh;
+    background-color: cadetblue;
+    margin-bottom: 50px;
+}
+
 /* footer */
+
+footer {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color: black;
+}
+
+/* contacts */
+
+section.contacts {
+    margin-top: 50px;
+    height: 90%;
+    width: 70%;
+    background-color: coral;
+}
+
+/* lang */
+
+section.lang {
+    margin-bottom: 50px;
+    height: 10%;
+    width: 70%;
+    background-color: white;
+}
