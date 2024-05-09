@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+/* utils */
+
+/* header */
+
+header {
+    height: 90vh;
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; */
+}
+
+/* header top bar */
+
+section.banner {
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+}
+
+/* header jumbo */
+
+section.jumbo {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+div.jumbo {
+    height: 95%;
+    width: 70%;
+    background-color: blueviolet;
+}
+
+/* main */
+
+/* footer */
