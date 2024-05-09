@@ -1,0 +1,49 @@
+/* header */
+
+header {
+    height: 90vh;
+    width: 100%;
+}
+
+/* header top bar */
+
+section.banner {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.banner {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+a.banner {
+    text-decoration: none;
+}
+
+.banner-button {
+    padding: 10px;
+    color: white;
+}
+
+/* header jumbo */
+
+section.jumbo {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+div.jumbo {
+    height: 95%;
+    width: 70%;
+    background-color: blueviolet;
+}

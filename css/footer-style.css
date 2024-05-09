@@ -1,0 +1,29 @@
+/* footer */
+
+footer {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color: black;
+}
+
+/* contacts */
+
+section.contacts {
+    margin-top: 50px;
+    height: 90%;
+    width: 70%;
+    background-color: coral;
+}
+
+/* lang */
+
+section.lang {
+    margin-bottom: 50px;
+    height: 10%;
+    width: 70%;
+    background-color: white;
+}
