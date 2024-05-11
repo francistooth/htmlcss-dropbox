@@ -12,7 +12,7 @@ main {
 /* plan section */
 
 section.plan {
-    width: 70%;
+    width: 60%;
     height: 150vh;
     background-color: red;
     margin-top: 50px;
@@ -22,10 +22,18 @@ section.plan {
     margin-top: 200px;
 }
 
+/* plan h1 */
+
+/* plan radiobuttons */
+
+/* plan list */
+
+/* plan enterprise extra box */
+
 /* partner section */
 
 section.partner {
-    width: 70%;
+    width: 60%;
     height: 70vh;
     background-color: blue;
 }
@@ -33,7 +41,7 @@ section.partner {
 /* business */
 
 section.business {
-    width: 70%;
+    width: 60%;
     height: 110vh;
     background-color: cornflowerblue;
 }
@@ -51,7 +59,7 @@ section.partnerships-promo {
 /* partnerships text */
 
 .partnerships-text {
-    width: 70%;
+    width: 60%;
     height: 30%;
     background-color: green;
 }
@@ -75,7 +83,7 @@ section.partnerships-promo {
 /* faq */
 
 section.faq {
-    width: 70%;
+    width: 60%;
     height: 70vh;
     background-color: cadetblue;
     margin-bottom: 50px;
