@@ -1,7 +1,7 @@
 /* header */
 
 header {
-    height: 90vh;
+    /* height: 90vh; */
     width: 100%;
 }
 
@@ -22,13 +22,14 @@ div.banner {
     gap: 30px;
 }
 
-a.banner {
+a.nodeco {
     text-decoration: none;
 }
 
-.banner-button {
+.button-blue {
     padding: 10px;
     color: white;
+    background-color: #0093CE;
 }
 
 /* header jumbo */
@@ -39,7 +40,7 @@ section.jumbo {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #b4d0e7;
 }
 
 /* actual jumbo container */
@@ -47,7 +48,6 @@ section.jumbo {
 div.jumbo {
     height: 95%;
     width: 70%;
-    background-color: blueviolet;
 }
 
 /* jumbo top part */
@@ -56,12 +56,18 @@ div.jumbo-top {
     height: 30%;
 }
 
+h1.jumbo-top {
+    font-size: 80px;
+    padding: 50px 0px;
+}
+
 /* jumbo bottom part */
 
 div.jumbo-text-image {
     height: 70%;
     width: 100%;
     display: flex;
+    position: relative;
 }
 
 /* jumbo p */
@@ -69,14 +75,30 @@ div.jumbo-text-image {
 .jumbo-text {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 50px;
     width: 30%;
+}
+
+.jumbo-p {
+    font-size: 18px;
+}
+
+a.jumbo {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* jumbo img */
 
 div.jumbo-img {
-    width: 70%;
+    width: 80%;
+    height: 130%;
     content: url(../img/jumbo.png);
     object-fit: scale-down;
+    position: absolute;
+    top: -25px;
+    right: -130px;
 }
