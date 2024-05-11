@@ -42,8 +42,41 @@ section.jumbo {
     background-color: aquamarine;
 }
 
+/* actual jumbo container */
+
 div.jumbo {
     height: 95%;
     width: 70%;
     background-color: blueviolet;
+}
+
+/* jumbo top part */
+
+div.jumbo-top {
+    height: 30%;
+}
+
+/* jumbo bottom part */
+
+div.jumbo-text-image {
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+
+/* jumbo p */
+
+.jumbo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+
+/* jumbo img */
+
+div.jumbo-img {
+    width: 70%;
+    content: url(../img/jumbo.png);
+    object-fit: scale-down;
 }
