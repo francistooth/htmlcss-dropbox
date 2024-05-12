@@ -10,9 +10,16 @@ body {
 }
 
 /* utils 
-    #0093CE blue button color
+    #0061ff blue button color
+
     
 */
+
+.button-blue {
+    padding: 10px;
+    color: white;
+    background-color: #0061ff;
+}
 
 .color-gray {
     color: gray;
