@@ -19,7 +19,6 @@ main {
 
 section.plan-container {
     width: 60%;
-    height: 150vh;
     margin-top: 50px;
 }
 
@@ -40,9 +39,9 @@ section.plan-container {
     padding-bottom: 40px;
 }
 
-.plan-radio > input {
-    height: 15px;
-    width: 15px;
+input [type="radio"] {
+    height: 20px;
+    width: 20px;
     padding: 5px;
 }
 
@@ -59,16 +58,18 @@ section.plan-container {
 .plan-plans {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 40px;
 }
 
 .plan {
     width: 30%;
+    padding-bottom: 20px;
 }
 
 .plan-type {
     text-align: center;
-
-    border: 2px solid lightgray;
+    padding: 10px 0px;
+    border: 1px solid lightgray;
 }
 
 div.plan-desc {
@@ -77,8 +78,9 @@ div.plan-desc {
     align-items: flex-start;
     gap: 15px;
     padding: 30px;
-    border: 2px solid lightgray;
+    border: 1px solid lightgray;
     border-top: none;
+    height: 100%;
 }
 
 div.plan-desc > a {
@@ -89,17 +91,40 @@ div.plan-desc > a {
 span.plan-desc {
     color: gray;
     padding-bottom: 40px;
+    font-size: 22px;
 }
 
-label.plan-desc {
-
+.border-bottom-gray {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 40px;
 }
 
-label.plan-desc > i {
-    padding-right: 5px;
+.buy-now {
+    padding-bottom: 40px;
+}
+
+.plan-list {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 20px;
 }
 
 /* plan enterprise extra box */
+
+.extra {
+    display: flex;
+}
+
+.extra > .plan-desc{
+    width: 100%;
+}
+
+.extra-button {
+    text-align: center;
+    padding: 5px 10px;
+}
 
 /* partner section */
 

@@ -14,6 +14,7 @@ section.banner {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
+    background-color: white;
 }
 
 div.banner {
@@ -26,8 +27,6 @@ div.banner {
 a.nodeco {
     text-decoration: none;
 }
-
-
 
 /* header jumbo */
 
