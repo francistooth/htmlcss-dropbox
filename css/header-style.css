@@ -7,17 +7,20 @@ header {
 
 /* header top bar */
 
-section.banner {
-    height: 20%;
-    width: 100%;
+nav.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
     background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
-div.banner {
+ul.banner {
     padding: 0px 20px;
     display: flex;
     align-items: center;
@@ -34,7 +37,49 @@ a.nodeco {
 
 .banner-button:hover {
     border-bottom: 2px solid black;
-    
+    cursor: pointer;   
+}
+
+/* dropdown */
+
+li {
+    display: block;
+    transition-duration: 0.5s;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+ul.banner li {
+    position: relative;
+}
+
+ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    display: none;
+    background-color: white;
+}
+
+ul li ul li{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
 }
 
 /* header jumbo */
@@ -53,6 +98,7 @@ section.jumbo {
 div.jumbo {
     height: 95%;
     width: 70%;
+    margin-top: 100px;
 }
 
 /* jumbo top part */

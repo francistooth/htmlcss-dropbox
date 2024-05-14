@@ -107,7 +107,7 @@ span.plan-desc {
     list-style-type: none;
 }
 
-ul li {
+ul.plan-list li {
     margin-bottom: 20px;
 }
 
@@ -148,7 +148,7 @@ section.partner {
 }
 
 div.partner-img {
-    width: 60%;
+    width: 70%;
     content: url(../img/partner.png);
     object-fit: cover;
 }
