@@ -13,12 +13,24 @@ footer {
 /* contacts */
 
 section.contacts {
-    margin-top: 50px;
+    margin-top: 90px;
     height: 90%;
     width: 70%;
-    background-color: coral;
+    display: flex;
 }
 
+div.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    width: 20%;
+}
+
+h1.color-white {
+    padding-bottom: 20px;
+}
 /* lang */
 
 section.lang {
