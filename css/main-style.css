@@ -113,6 +113,10 @@ ul li {
 
 /* plan enterprise extra box */
 
+.plan-enterprise-extra {
+    margin-top: 40px;
+}
+
 .extra {
     display: flex;
 }
@@ -140,7 +144,26 @@ ul li {
 section.partner {
     width: 60%;
     height: 70vh;
-    background-color: blue;
+    display: flex;
+}
+
+div.partner-img {
+    width: 60%;
+    content: url(../img/partner.png);
+    object-fit: cover;
+}
+
+div.partner-text {
+    padding: 70px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button-white {
+    padding: 10px 20px;
+    border: 1px solid black;
+    color: black;
 }
 
 /* business */
