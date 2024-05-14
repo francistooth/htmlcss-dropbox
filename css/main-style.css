@@ -118,12 +118,21 @@ ul li {
 }
 
 .extra > .plan-desc{
-    width: 100%;
+    width: 70%;
+}
+
+.extra > .right {
+    width: 30%;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-left: none;
+    border-top: none;
+    margin: 0 auto;
 }
 
 .extra-button {
-    text-align: center;
-    padding: 5px 10px;
+    display: block;
+    width: 100%;
 }
 
 /* partner section */
