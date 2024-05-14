@@ -170,8 +170,20 @@ div.partner-text {
 
 section.business {
     width: 60%;
-    height: 110vh;
-    background-color: cornflowerblue;
+    margin-top: 50px;
+}
+
+div.business-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+div.business-element {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 /* partnerships */
