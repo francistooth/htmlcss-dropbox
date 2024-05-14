@@ -28,7 +28,7 @@ section.plan-container {
 
 /* plan h1 */
 
-.plan-h1 > h1 {
+.main-h1 > h1 {
     font-size: 40px;
     padding-bottom: 50px;
 }
@@ -199,9 +199,13 @@ section.partnerships-promo {
 /* partnerships text */
 
 .partnerships-text {
+    padding-top: 100px;
     width: 60%;
     height: 30%;
-    background-color: green;
+}
+
+.partnerships-title {
+    width: 60%;
 }
 
 /*  partnership logo image carousel  */
